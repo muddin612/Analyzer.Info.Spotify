@@ -19,15 +19,15 @@ This project manages user and music-related data, including user details, song i
 
 ### Song Data
 
-| Field            | Description            |
-|------------------|------------------------|
-| **ID**           | Unique song identifier |
-| **Name**         | Song title             |
-| **Duration**     | Song length (in ms)    |
-| **Spotify Link** | Listen on Spotify      |
-| **Play Count**   | Number of times played |
-| **Popularity**   | Popularity score       |
-| **Played At**    | Last played timestamp  |
+| Field            | Description            | Data Type |
+|------------------|------------------------|-----------|
+| **ID**           | Unique song identifier | String    |
+| **Name**         | Song title             | String    |
+| **Duration**     | Song length (in ms)    | float     |
+| **Spotify Link** | Listen on Spotify      | String    |
+| **Play Count**   | Number of times played | ArrayList |
+| **Popularity**   | Popularity score       | int       |
+| **Played At**    | Last played timestamp  | ArrayList |
 
 ### Artist Data
 
@@ -37,3 +37,4 @@ This project manages user and music-related data, including user details, song i
 | **Name**         | Artist's name                      |
 | **Type**         | Artist category (e.g., solo, band) |
 | **Spotify Link** | View on Spotify                    |
+
