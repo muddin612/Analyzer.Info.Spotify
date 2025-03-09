@@ -8,14 +8,17 @@ This project manages user and music-related data, including user details, song i
 
 ### User Data
 
-| Field            | Description            |
-|------------------|------------------------|
-| **Display Name** | User's display name    |
-| **Email**        | User's email address   |
-| **Country**      | User's country         |
-| **ID**           | Unique user identifier |
-| **First Name**   | User's first name      |
-| **Last Name**    | User's last name       |
+| Field             | Description                |
+|-------------------|----------------------------|
+| **Display Name**  | User's display name        |
+| **Email**         | User's email address       |
+| **Country**       | User's country             |
+| **ID**            | Unique user identifier     |
+| **First Name**    | User's first name          |
+| **Last Name**     | User's last name           |
+| **Access Token**  | Access token from Spotify  |
+| **Refresh Token** | Refresh token from Spotify |
+
 
 ### Song Data
 
